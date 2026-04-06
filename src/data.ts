@@ -75,11 +75,11 @@ export const activities: Activity[] = [
     energy: "low"
   },
   {
-    id: "hobby-journalling",
-    name: "Hobby Journalling",
+    id: "travel-vlogs",
+    name: "Watch YouTube Travel Vlogs",
     category: "chill",
-    type: "link",
-    url: "https://youtube.com/shorts/GyUdEhh85zY?si=0bsoPRancdlnqxNn",
+    type: "checklist",
+    checklist: ["Seohee Travel", "Tip to Tip", "Pewdiepie Japan"],
     energy: "low"
   },
   {
