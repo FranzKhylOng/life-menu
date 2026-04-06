@@ -98,14 +98,6 @@ export const activities: Activity[] = [
     checklist: ["Pick one: Hades, Stardew, Zelda, Kirby, or Pokemon", "Play for one session/run"],
     energy: "low"
   },
-  {
-    id: "untitled-goose-game",
-    name: "Untitled Goose Game",
-    category: "chill",
-    type: "checklist",
-    checklist: ["Open the game", "Be a horrible goose", "Honk"],
-    energy: "low"
-  },
 
   // RESET
   {
@@ -118,11 +110,11 @@ export const activities: Activity[] = [
     description: "Best for mental resets between study sessions."
   },
   {
-    id: "hike",
-    name: "Go for a Hike",
+    id: "flashcards",
+    name: "Answer Flashcards",
     category: "reset",
     type: "checklist",
-    checklist: ["Pack water", "Check local trail", "Drive/Walk to the start point"],
+    checklist: ["Focus on just one card at a time"],
     energy: "medium"
   },
   {
@@ -133,6 +125,15 @@ export const activities: Activity[] = [
     checklist: ["Sit comfortably", "Breathe slowly", "Observe surroundings without judgment", "Zone out for 5 mins"],
     energy: "low"
   },
+  {
+    id: "pocket-notebook",
+    name: "Read Pocket Notebook",
+    category: "reset",
+    type: "checklist",
+    checklist: ["Sit comfortably", "Read 1 Page"],
+    energy: "low"
+  },
+
 
   // BUILD
   {
